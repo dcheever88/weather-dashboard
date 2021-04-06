@@ -1,0 +1,8 @@
+.block:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+
+#currentCity {
+    border: 1px solid black;
+
+  }
