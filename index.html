@@ -16,18 +16,27 @@
         Weather Dashboard
         </h1>
     </navbar>
-    <div class="columns">
-        <div class="box block column is-one-quarter">
+    <div class="columns p-4">
+        <div class="box block column is-one-quarter m-4" id="searchBox">
             <a class="field">
                 <label class="block label">Search for a city</label>
                 <input class="block input" type="text" placeholder="Enter city here">
                 <button class="block button is-info">Search</button>
             </a>
         </div>
-        <div class="column is-bordered" id="currentCity">
-            <a class="container has-text-black">asdfasdf
+        <div class="box column block m-4" id="currentCity">
+            <div class="columns">
+                <div class="column is-one-fifth block has-text-black">
+                City fill-in
+                </div>
+                <div class="column is-one-fifth block">
+                    current date
+                </div>
+                <div class="column is-one-fifth block">
+                    symbol
+                </div>
 
-            </a>
+            </div>
         </div>
     </div>
 

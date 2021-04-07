@@ -2,7 +2,10 @@
     margin-bottom: 1.5rem;
   }
 
+#searchBox {
+    border: 1px solid black;
+}
+
 #currentCity {
     border: 1px solid black;
-
-  }
+}
