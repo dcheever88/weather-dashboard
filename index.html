@@ -20,25 +20,23 @@
         <div class="box block column is-one-quarter m-4" id="searchBox">
             <a class="field">
                 <label class="block label">Search for a city</label>
-                <input class="block input" id="current-city" type="text" placeholder="Enter city here">
+                <input class="block input" id="search-city" type="text" placeholder="Enter city here">
                 <button class="block button is-info" id="search-button">Search</button>
             </a>
         </div>
-        <div class="box column block m-4" id="currentCity">
+        <div class="box column block m-4">
             <div class="columns">
-                <div class="column is-one-fifth block has-text-black">
-                City fill-in
-                </div>
-                <div class="column is-one-fifth block">
-                    current date
-                </div>
-                <div class="column is-one-fifth block">
-                    symbol
-                </div>
+                <div class="column is-one-fifth block has-text-black">City: <span id="current-city"></div>
+                <div class="column is-one-fifth block has-text-black"> Temperature: <span id="temp"></div>
+                <div class="column is-one-fifth block has-text-black"> Humidity: <span id="humidity"></div>
+                <div class="column is-one-fifth block has-text-black"> Wind Speed: <span id="wind"></div>
+                <div class="column is-one-fifth block has-text-black"> UV Index: <span id="uv"></div>
+            </div>
+                
 
             </div>
             <div class="columns">
-                <div class="column" id="currentWeather">
+                <div class="column" id="currentWeather">˜
                     <div id="description"></div>
                     <h1 id="temp"></h1>
                     <div id="location"></div>
@@ -55,19 +53,19 @@
             <p class="is-size-4 mb-2"><strong>5-Day Forecast:</strong></p>
             <div class="columns">
                 <div class="column m-2 has-background-link-dark has-text-white">
-
+                    Date: <span id="futureDate1"></span>
                 </div>
                 <div class="column m-2 has-background-link-dark has-text-white">
-
+                    Date: <span id="futureDate2"></span>
                 </div>
                 <div class="column m-2 has-background-link-dark has-text-white">
-
+                    Date: <span id="futureDate3"></span>
                 </div>
                 <div class="column m-2 has-background-link-dark has-text-white">
-
+                    Date: <span id="futureDate4"></span>
                 </div>
                 <div class="column m-2 has-background-link-dark has-text-white">
-                        
+                    Date: <span id="futureDate5"></span>
                 </div>
             </div>
         </div>
