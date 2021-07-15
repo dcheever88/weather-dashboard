@@ -53,7 +53,7 @@ function find(findCity) {
 };
 
 function showWeather(event){
-    event.preventDefault();
+    // event.preventDefault();
     if(searchedCity.val().trim()!==""){
         cityName=searchedCity.val().trim();
         cityWeather(cityName);
@@ -62,6 +62,7 @@ function showWeather(event){
 
 
 function cityWeather(cityName) {
+    event.preventDefault();
     console.log(cityName);
    
     fetch("https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=" + key)
